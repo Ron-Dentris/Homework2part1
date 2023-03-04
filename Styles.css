@@ -2,12 +2,30 @@
 .listed-items{
     list-style: none;
 }
+ul{
+    font-family: "roboto";
+}
 .lnk{
+
     text-decoration: none;
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.14;
 }
+.lnk-page{
+    color: #212121;
+}
+.lnk-reach{
+    color: #757575;
+}
+.adrs{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.72;
+}
+.lnk:hover {
+    color: #2196F3;
+}
+
 .bars{
     background: #2F303A;
 }
@@ -23,54 +41,55 @@
    
 }
 .names{
+    color: #212121;
     text-align: center;
-    font-family: 'Roboto';
 }
 .roles {
+    color: #757575;
     text-align: center;
-    font-family: 'Roboto';
 }
-.button:hover{
-    background: #2196F3;
-    color:white;
+.button{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto';
+}
+.button:hover{
+    background: #2196F3;
+    color:white;
 }
 .title{
     color: white;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    font-family: 'Roboto';
     text-align: center;
+    font-family: "roboto";
 }
 .features{
+    color: #212121;
     font-size: 14px;
     line-height: 1.14;
-    font-family: 'Roboto';
 }
 .features-text {
+    color: #757575;
     font-size: 14px;
     line-height: 1.72;
-    font-family: 'Roboto';
 }
 .titles {
-font-family: 'Roboto';
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
+font-family: "roboto";
 }
 .prod{
-    font-family: 'Roboto';
+    color: #212121;
     font-size: 18px;
     line-height: 2;
 }
 .prod.desc{
-    font-family: 'Roboto';
+    color: #757575;
     font-size: 16px;
     line-height: 1.88;
 }
