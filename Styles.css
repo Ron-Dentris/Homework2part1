@@ -41,12 +41,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.lnk-reach-top {
-    color: var(--desc-color);
-    letter-spacing: 0.02em;
-}
-
-.lnk-reach-bottom{
+.lnk-reach {
     color: var(--reach-color);
     letter-spacing: 0.02em;
 }
